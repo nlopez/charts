@@ -1,0 +1,17 @@
+apiVersion: v1
+entries:
+  tautulli:
+  - apiVersion: v2
+    appVersion: 2.10.5
+    created: "2022-11-10T03:43:03.273886499Z"
+    description: A Helm chart for Kubernetes
+    digest: e2b70935a7e813acbb957a696ba5c2eae9e45290e55c6c4547fa2638681defcd
+    maintainers:
+    - name: nlopez
+      url: https://github.com/nlopez
+    name: tautulli
+    type: application
+    urls:
+    - https://github.com/nlopez/helm-charts/releases/download/tautulli-0.1.0/tautulli-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-11-10T03:43:03.273894599Z"
