@@ -5,6 +5,7 @@ metadata:
   labels:
     {{- include "tautulli.labels" . | nindent 4 }}
 spec:
+  serviceName: {{ include "tautulli.fullname" . }}
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
