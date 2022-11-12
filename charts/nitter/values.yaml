@@ -80,3 +80,9 @@ env: {}
 volumes: {}
 
 volumeMounts: {}
+
+nitter:
+  Server:
+    hostname: nitter.net
+  Preferences:
+    replaceTwitter: nitter.net
