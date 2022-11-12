@@ -3,6 +3,20 @@ entries:
   nitter:
   - apiVersion: v2
     appVersion: 2ac3afa5b273a502d7632e9346c7c3bc9283fb48
+    created: "2022-11-12T05:27:01.193631824Z"
+    description: A free and open source alternative Twitter front-end focused on privacy
+      and performance.
+    digest: 0bfb9bc6eaa5180d1dc47389c7d41b88717c51766d91e75f4d13ef33893ce000
+    maintainers:
+    - name: nlopez
+      url: https://github.com/nlopez
+    name: nitter
+    type: application
+    urls:
+    - https://github.com/nlopez/helm-charts/releases/download/nitter-0.1.1/nitter-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 2ac3afa5b273a502d7632e9346c7c3bc9283fb48
     created: "2022-11-12T04:23:29.498404409Z"
     description: A free and open source alternative Twitter front-end focused on privacy
       and performance.
@@ -29,4 +43,4 @@ entries:
     urls:
     - https://github.com/nlopez/helm-charts/releases/download/tautulli-0.1.0/tautulli-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-12T04:23:29.498410309Z"
+generated: "2022-11-12T05:27:01.193740124Z"
