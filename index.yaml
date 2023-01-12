@@ -1,5 +1,20 @@
 apiVersion: v1
 entries:
+  breezewiki:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2023-01-12T17:38:25.350479724Z"
+    description: A free and open source alternative Twitter front-end focused on privacy
+      and performance.
+    digest: 867118d64c829a6ca4f0b9e0cd08da58be3f53075c2b6c23a9a7abad28753641
+    maintainers:
+    - name: nlopez
+      url: https://github.com/nlopez
+    name: breezewiki
+    type: application
+    urls:
+    - https://github.com/nlopez/helm-charts/releases/download/breezewiki-0.1.1/breezewiki-0.1.1.tgz
+    version: 0.1.1
   nitter:
   - apiVersion: v2
     appVersion: 2ac3afa5b273a502d7632e9346c7c3bc9283fb48
@@ -43,4 +58,4 @@ entries:
     urls:
     - https://github.com/nlopez/helm-charts/releases/download/tautulli-0.1.0/tautulli-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-12T05:27:01.193740124Z"
+generated: "2023-01-12T17:38:25.350487024Z"
