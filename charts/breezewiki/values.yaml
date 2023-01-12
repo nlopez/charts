@@ -80,9 +80,3 @@ env: {}
 volumes: {}
 
 volumeMounts: {}
-
-breezewiki:
-  Server:
-    hostname: breezewiki.net
-  Preferences:
-    replaceTwitter: breezewiki.net
