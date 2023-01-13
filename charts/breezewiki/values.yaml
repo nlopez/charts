@@ -8,7 +8,7 @@ image:
   repository: quay.io/pussthecatorg/breezewiki
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "sha256:d55802336e5c8fec4758c19e4200b2cd3388cf2e2a0292c197627faa2c8c149c"
+  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
