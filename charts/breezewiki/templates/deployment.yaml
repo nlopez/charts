@@ -5,7 +5,6 @@ metadata:
   labels:
     {{- include "breezewiki.labels" . | nindent 4 }}
 spec:
-  serviceName: {{ include "breezewiki.fullname" . }}
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:

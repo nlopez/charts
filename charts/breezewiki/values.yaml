@@ -80,3 +80,12 @@ env: {}
 volumes: {}
 
 volumeMounts: {}
+
+breezewiki:
+  application_name: "BreezeWiki"
+  canonical_origin: ""
+  debug: "false"
+  feature_search_suggestions: "true"
+  log_outgoing: "true"
+  port: "10416"
+  strict_proxy: "true"
